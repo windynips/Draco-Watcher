@@ -1,7 +1,7 @@
-Create a string of data.....Following the scheme.
-Example python reading and writing into mongo DB 
+#Create a string of data.....Following the scheme.
+#Example python reading and writing into mongo DB 
 
-change sensor type, parse the same.
+#change sensor type, parse the same.
 
 
 #with open(outfile, 'a') as f:   #appends the file
