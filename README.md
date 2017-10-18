@@ -1,3 +1,7 @@
+A new Twist on the Brap Project, I am still testing with random data.
+Updates soon to come.....
+
+
 flask-live-charts
 =================
 
