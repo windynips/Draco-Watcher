@@ -1,9 +1,6 @@
 #Create a string of data.....Following the scheme.
 #Example python reading and writing into mongo DB 
 
-#change sensor type, parse the same.
-
-
 #with open(outfile, 'a') as f:   #appends the file
 	while ser.isOpen():
 		datastring = sio.readline()
@@ -20,17 +17,5 @@
 				"az"	 : parsed_data[6],
 				"gx"	 : parsed_data[7],
 				"gy"	 : parsed_data[8],
-				"gz"	 : parsed_data[9],
-
-			}
-		}
-
-		datarow_id = sessionsdata.insert_one(datarow).inserted_id
-		
-
-		#\t is tab; \n is line separator
-		#f.write(datetime.utcnow().isoformat() + '\t' + datastring + '\n')
-		#f.flush()  #forcing the sytstem to write to the disk
-
-ser.close()		
+				"gz"	 : parsed_data[9],	
     
